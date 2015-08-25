@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package grafos;
-
+import GUI.*;
 /**
  *
  * @author BSDsoporte
@@ -16,6 +16,8 @@ public class Grafos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        window w = new window();
+        w.crearVentana();
     }
     
 }
